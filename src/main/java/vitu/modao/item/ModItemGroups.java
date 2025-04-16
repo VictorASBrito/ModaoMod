@@ -11,7 +11,7 @@ import vitu.modao.Modaomod;
 
 public class ModItemGroups {
 
-
+    //GERAÇÃO DE GRUPO DE ITENS
 
     //GRUPO DE COMIDAS
     public static final ItemGroup FOOD_MODAO_GROUP = Registry.register(Registries.ITEM_GROUP,

@@ -11,6 +11,8 @@ import vitu.modao.Modaomod;
 
 public class ModItems {
 
+    //CLASSE PARA GERAÇÃO DE ITENS
+
 
     //COMIDA
     public static final Item PAMONHA = registerItem("pamonha", new Item(new Item.Settings().food(ModFoodComponents.PAMONHA)));

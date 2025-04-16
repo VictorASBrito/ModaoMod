@@ -10,6 +10,8 @@ import net.minecraft.registry.tag.TagKey;
 
 import java.util.function.Supplier;
 
+
+//CLASSE QUE DEFINE O MATERIAL DAS ARMAS E EQUIPAMENTOS
 public enum ModToolMaterial implements ToolMaterial {
     ALMA(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 10000, 9.0F, 6.0F, 15, () -> Ingredient.ofItems(ModItems.ALMA));
 

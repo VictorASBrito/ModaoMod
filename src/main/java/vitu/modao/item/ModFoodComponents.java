@@ -5,6 +5,9 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 
 public class ModFoodComponents {
+
+    //GERAÇÃO DE COMIDA
+
     public static final FoodComponent PAMONHA = new FoodComponent.Builder()
             .nutrition(8)
             .saturationModifier(0.6f)
