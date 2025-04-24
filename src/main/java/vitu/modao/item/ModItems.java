@@ -7,7 +7,9 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import vitu.modao.Modaomod;
+import vitu.modao.item.custom.VioleSwordItem;
 
 public class ModItems {
 
@@ -25,9 +27,10 @@ public class ModItems {
 
 
     //EQUIPAMENTOS
-    public static final Item VIOLE_SWORD = registerItem("viole_sword",
+    public static final Item SOUL_SWORD = registerItem("soul_sword",
             new SwordItem(ModToolMaterial.ALMA, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterial.ALMA, 3, -2.4f))));
-
+    public static final Item VIOLE_SWORD = registerItem("viole_sword",
+            new VioleSwordItem(new Item.Settings().attributeModifiers(VioleSwordItem.createAttributeModifiers()).maxDamage(1500).rarity(Rarity.EPIC)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Modaomod.MOD_ID, name), item);

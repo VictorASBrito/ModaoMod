@@ -38,9 +38,10 @@ public class ModItemGroups {
     //GRUPO DE ARMAS E EQUIPAMENTOS
     public static final ItemGroup WEAPON_MODAO_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Modaomod.MOD_ID,  "weapon_modao_group"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.VIOLE_SWORD))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SOUL_SWORD))
                     .displayName(Text.translatable("itemgroup.modaomod.weapon_modao_group"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModItems.SOUL_SWORD);
                         entries.add(ModItems.VIOLE_SWORD);
                     }).build());
 
