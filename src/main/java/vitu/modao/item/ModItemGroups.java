@@ -43,6 +43,9 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SOUL_SWORD);
                         entries.add(ModItems.VIOLE_SWORD);
+                        entries.add(ModItems.LIBUR_SWORD);
+                        entries.add(ModItems.TAEWON_ABILITY);
+                        entries.add(ModItems.TAEWON_LANCE);
                     }).build());
 
     public static void registerItemGroups(){

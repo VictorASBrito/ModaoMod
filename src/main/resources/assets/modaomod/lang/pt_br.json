@@ -1,12 +1,25 @@
 {
   "item.modaomod.pamonha": "Pamonha",
+
   "item.modaomod.milho": "Milho",
+
   "item.modaomod.semente_de_milho": "Semente de Milho",
+
   "item.modaomod.alma": "Alma",
+
   "item.modaomod.soul_sword": "Espada da Alma",
+
   "item.modaomod.viole_sword": "Espada do Viole",
+  "tooltip.modaomod.viole_sword.shift_down": "Espada pertencente a Viole, um personagem do RPG de Soul Eater",
+  "tooltip.modaomod.viole_sword": "Pressione Shift para mais informações!",
+
+  "item.modaomod.libur_sword": "Exca-Libur",
+  "item.modaomod.taewon_ability": "Caminho para Utopia",
+  "item.modaomod.taewon_lance": "Lança de Energia",
 
   "itemgroup.modaomod.food_modao_group": "Comidas - Modão",
+
   "itemgroup.modaomod.material_modao_group": "Materiais - Modão",
+
   "itemgroup.modaomod.weapon_modao_group": "Armas - Modão"
 }
